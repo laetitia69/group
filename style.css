@@ -1,3 +1,21 @@
+/********************************************************************GLOBAL
+**************************************************************************************/
+*{
+		font-size: 1rem;
+
+}
+
+/********************************************************************NAV
+**************************************************************************************/
+header button{
+	border: 1px solid #4285f4;
+	background-color: #4387fd;
+	color: white;
+	border-radius: 2px;
+	font-weight: bold;
+	padding: 5px 9px;
+}
+
 li{
 	padding: 1%;
 }
@@ -19,12 +37,64 @@ footer nav ul{
 	margin-left: -30px;
 }
 
+.end_right ul{
+	margin-left: 0!important;
+	justify-content: flex-end!important;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	opacity: 0.65;
+	text-decoration: underline;
+}
+/********************************************************************FOOTER
+**************************************************************************************/
 footer div{
 	margin-left: 28px;
 }
 
-.end_right{
-	margin-left: 0!important;
-	justify-content: flex-end!important;
+footer{
+	background-color: #f1f1f1f1;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	margin-top: 10%;
+	width: 100%;
+	bottom: 0;
+}
 
+footer nav{
+	border-top: 1px solid #e4e4e4;
+}
+
+/********************************************************************RECHERCHE GOOGLE
+**************************************************************************************/
+img {
+	width: 30%;
+}
+
+form input{
+	width: 45%;
+	padding: 10px;
+	box-shadow: 0 1px 1px grey;
+}
+
+.size_btn{
+	margin-top: 2%;
+    width: 12%;
+    height: 40px;
+    background-color: #f1f1f1f1;
+	border: none;
+	font-weight: bold;
+	color: grey;
+}
+
+.size_btn:hover{
+	color: #555;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px grey;
 }
