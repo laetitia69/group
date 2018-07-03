@@ -16,9 +16,15 @@ header nav ul{
 footer nav ul{
 	
 	justify-content: flex-start;
-	margin-left: -3%;
+	margin-left: -30px;
 }
 
 footer div{
-	margin-left: 3%;
+	margin-left: 28px;
+}
+
+.end_right{
+	margin-left: 0!important;
+	justify-content: flex-end!important;
+
 }
