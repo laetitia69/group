@@ -1,8 +1,24 @@
-ul{
-	list-style-type: none;
+li{
+	padding: 1%;
 }
 
-header nav{
+ul{
+	list-style-type: none;
 	display: flex;
-	align-content: flex-end;
+	flex-direction: row;
+}
+
+header nav ul{
+	
+	justify-content: flex-end;
+}
+
+footer nav ul{
+	
+	justify-content: flex-start;
+	margin-left: -3%;
+}
+
+footer div{
+	margin-left: 3%;
 }
