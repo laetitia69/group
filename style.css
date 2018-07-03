@@ -2,7 +2,18 @@
 **************************************************************************************/
 *{
 		font-size: 1vw;
+		
+}
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 /********************************************************************NAV
@@ -37,11 +48,6 @@ footer nav ul{
 	margin-left: -30px;
 }
 
-.end_right ul{
-	margin-left: 0!important;
-	justify-content: flex-end!important;
-
-}
 
 a{
 	text-decoration: none;
@@ -52,25 +58,40 @@ a:hover{
 	opacity: 0.65;
 	text-decoration: underline;
 }
+.end_right ul{
+	margin-left: 0!important;
+	justify-content: flex-end!important;
+	
+}
+.end_right{
+	margin-top: -7%;
+	margin-right: 23px;
+}
+
 /********************************************************************FOOTER
 **************************************************************************************/
 footer div{
 	margin-left: 28px;
+	padding: 10px;
 }
 
 footer{
 	background-color: #f1f1f1f1;
 	border-top: 1px solid #e4e4e4;
 	position: absolute;
-	margin-top: 10%;
 	width: 100%;
 	bottom: 0;
+	left: 0;
 }
 
 footer nav{
 	border-top: 1px solid #e4e4e4;
+	margin-bottom: -1%;
 }
 
+.france{
+	margin-left: 49px;
+}
 /********************************************************************RECHERCHE GOOGLE
 **************************************************************************************/
 img {
