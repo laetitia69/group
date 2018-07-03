@@ -1,0 +1,8 @@
+ul{
+	list-style-type: none;
+}
+
+header nav{
+	display: flex;
+	align-content: flex-end;
+}
